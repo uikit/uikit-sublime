@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.3.0 (March 25, 2014)
+  - updated for uikit 2.5.0
+
 ### 1.2.0 (March 5, 2014)
   - updated for uikit 2.4.0
   - included addons
