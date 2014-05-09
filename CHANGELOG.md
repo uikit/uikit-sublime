@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.4.0 (May 9, 2014)
+  - updated for uikit 2.6.0
+
 ### 1.3.0 (March 25, 2014)
   - updated for uikit 2.5.0
 
