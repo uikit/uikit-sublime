@@ -25,8 +25,8 @@ git clone git@github.com:uikit/uikit-sublime.git
 
 ### Usage
 
-- **Class name autocompletion**: When inside double quotes of a class attribute (`class="<here>"`), suggestions will appear for all `uk-` classes.
-- **Data attributes autocompletion**: 
+- **Class name autocompletion**: When inside double quotes of a class attribute (`class="[HERE]"`), suggestions will appear for all `uk-` classes.
+- **Data attributes autocompletion**: When inside a tag, but outside of a quoted attribute string (`<div [HERE] class="uk-container" [OR-HERE]>`), suggestions will appear for all `data-uk-` attributes.
 - **Markup snippets**: Anywhere in your document, type `uikit` to see all available snippets. Scroll through them with your cursors and hit the return key to apply a snippet or the ESC key to cancel.
 
 Note: In order for the suggestions to appear, your document needs to have the syntax set to `HTML` (or any child syntax like `HTML (PHP)`). You can set the syntax from the menu *View > Syntax* or via the Command Palette.
