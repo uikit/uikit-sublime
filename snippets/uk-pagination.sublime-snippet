@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<ul class="${1:uk-pagination}">
+    <li class="${2:uk-active}"><span>$3</span></li>
+    <li><a href="">$4</a></li>
+</ul>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-pagination component</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<figure class="${1:uk-thumbnail}">
+    <img src="" alt="">
+    <figcaption class="${2:uk-thumbnail-caption}">$3</figcaption>
+</figure>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-thumbnail component</description>
+</snippet>

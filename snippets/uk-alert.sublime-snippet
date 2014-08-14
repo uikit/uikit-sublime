@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<div class="${1:uk-alert}" data-uk-alert>
+    <a href="#" class="${2:uk-alert-close uk-close}">$3</a>
+    <p>$4</p>
+</div>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-alert component</description>
+</snippet>

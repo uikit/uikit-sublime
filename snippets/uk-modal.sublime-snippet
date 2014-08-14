@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<a href="#modal" data-uk-modal="">$1</a>
+<div id="modal" class="${2:uk-modal}">
+    <div class="${3:uk-modal-dialog}">
+        <a href="" class="${4:uk-modal-close uk-close}">$5</a>
+        <p>$6</p>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-modal component</description>
+</snippet>

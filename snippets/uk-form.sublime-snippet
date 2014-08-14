@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<form class="${1:uk-form}">
+    <div class="${2:uk-form-row}">
+        <label class="${3:uk-form-label}" for="form-input-1">$4</label>
+        <div class="${5:uk-form-controls}">
+            <input type="text" id="form-input-1" placeholder="Text input">
+        </div>
+    </div>
+</form>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-form component</description>
+</snippet>

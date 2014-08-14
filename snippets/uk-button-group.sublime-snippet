@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<div class="${1:uk-button-group}">
+    <a class="${2:uk-button}" href="#">$3</a>
+    <a class="${4:uk-button}" href="#">$5</a>
+    <a class="${6:uk-button}" href="#">$7</a>
+</div>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-button-group component</description>
+</snippet>

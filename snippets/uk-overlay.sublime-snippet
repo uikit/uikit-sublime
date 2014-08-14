@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<a class="${1:uk-overlay}" href="">
+    <img src="" alt="">
+    <div class="${2:uk-overlay-area}">$3</div>
+</a>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-overlay component</description>
+</snippet>
