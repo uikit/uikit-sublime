@@ -3,8 +3,7 @@
     <button class="${2:uk-button}">$3</button>
     <div class="${4:uk-dropdown uk-dropdown-small}">
         <ul class="${5:uk-nav uk-nav-dropdown}">
-            <li><a href="#">$6</a></li>
-            <li><a href="#">$7</a></li>
+            <li><a href="">$6</a></li>
         </ul>
     </div>
 </div>

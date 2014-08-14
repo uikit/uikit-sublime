@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[<div class="${1:uk-button-group}">
-    <a class="${2:uk-button}" href="#">$3</a>
-    <a class="${4:uk-button}" href="#">$5</a>
-    <a class="${6:uk-button}" href="#">$7</a>
+    <button class="${2:uk-button}">$3</button>
+    <button class="${4:uk-button}">$5</button>
 </div>
 ]]></content>
     <tabTrigger>uikit</tabTrigger>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[<ul class="${1:uk-nestable}" data-uk-nestable>
+    <li>
+        <div class="${2:uk-nestable-item}">
+            <div class="${3:uk-nestable-handle}">$4</div>
+            <div data-nestable-action="toggle">$5</div>
+            <span>$6</span>
+        </div>
+    </li>
+</ul>
+]]></content>
+    <tabTrigger>uikit</tabTrigger>
+    <scope>text.html</scope>
+    <description>UIkit uk-nestable addon component</description>
+</snippet>
