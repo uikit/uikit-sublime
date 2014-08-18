@@ -1,8 +1,8 @@
 # Changelog
 
-### WIP
-- updated for uikit 2.8.0
-- added markup snippets
+### 1.6.0 (August 8, 2014)
+- updated for uikit 2.9.0
+- added markup snippets (triggered when typing `uikit`)
 
 ### 1.5.0 (June 6, 2014)
  - updated for uikit 2.7.0
