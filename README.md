@@ -3,7 +3,7 @@ uikit-sublime
 
 ### UIkit Sublime Plugin
 
-Auto-complete plugin for UIKit classes and data attributes. 
+Auto-complete plugin for UIKit classes and data attributes.
 
 ### UIkit
 
@@ -14,9 +14,9 @@ UIkit is a lightweight and modular front-end framework for developing fast and p
 
 ### Installation
 
-The plugin can be installed through Sublime Text's Package Control. Just search for `uikit`.
+The plugin can be installed through Sublime Text's Package Control. Just search for [UIkit autocomplete](https://sublime.wbond.net/packages/UIkit%20autocomplete).
 
-Alternatively, you can clone this repository to the Packages directory of your Sublime installation. In Mac OS, this looks as follows: 
+Alternatively, you can clone this repository to the Packages directory of your Sublime installation. In Mac OS, this looks as follows:
 
 ```bash
 cd ~/Library/Application Support/Sublime Text 3/Packages/
@@ -25,11 +25,19 @@ git clone git@github.com:uikit/uikit-sublime.git
 
 ### Usage
 
-- **Class name autocompletion**: When inside double quotes of a class attribute (`class="[HERE]"`), suggestions will appear for all `uk-` classes.
-- **Data attributes autocompletion**: When inside a tag, but outside of a quoted attribute string (`<div [HERE] class="uk-container" [OR-HERE]>`), suggestions will appear for all `data-uk-` attributes.
-- **Markup snippets**: Anywhere in your document, type `uikit` to see all available snippets. Scroll through them with your cursors and hit the return key to apply a snippet or the ESC key to cancel.
+**Class name autocompletion**: When inside double quotes of a class attribute (`class="[HERE]"`), suggestions will appear for all `uk-` classes.
 
-Note: In order for the suggestions to appear, your document needs to have the syntax set to `HTML` (or any child syntax like `HTML (PHP)`). You can set the syntax from the menu *View > Syntax* or via the Command Palette.
+![animation of class autocompletion](gif/classes.gif)
+
+**Data attributes autocompletion**: When inside a tag, but outside of a quoted attribute string (`<div [HERE] class="uk-container" [OR-HERE]>`), suggestions will appear for all `data-uk-` attributes.
+
+![animation of data attributes autocompletion](gif/data.gif)
+
+**Markup snippets**: Anywhere in your document, type `uikit` to see all available snippets. Scroll through them with your cursor keys and hit `RETURN` to insert a snippet or `ESC` to cancel. Use `TAB` to step through positions in the snippet.
+
+![animation of markup snippets](gif/snippets.gif)
+
+**Note**: In order for the suggestions to appear, your document needs to have the syntax set to `HTML` (or any child syntax like `HTML (PHP)`). You can set the syntax from the menu *View > Syntax* or via the Command Palette.
 
 ### Developer
 
@@ -40,7 +48,7 @@ To keep this plugin in sync with UIkit, class names, data attributes and markup 
 ```bash
 cd path/to/uikit
 grunt
-grunt sublime 
+grunt sublime
 ```
 
 This will generate a file `/dist/uikit_completions.py`. Replace the according parts of the plugin's python file with the generated python snippet.
