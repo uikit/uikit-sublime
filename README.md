@@ -43,17 +43,17 @@ git clone git@github.com:uikit/uikit-sublime.git
 
 *The following information explains how this plugin is maintained. Users do not need to care about those steps.*
 
-To keep this plugin in sync with UIkit, class names, data attributes and markup snippets are extracted from the UIkit code base using a Grunt task provided by UIkit itself.
+To keep this plugin in sync with UIkit, class names, data attributes and markup snippets are extracted from the UIkit code base using a Gulp task provided by UIkit itself.
 
 ```bash
 cd path/to/uikit
-grunt
-grunt sublime
+gulp
+gulp sublime
 ```
 
-This will generate a file `/dist/uikit_completions.py`. Replace the according parts of the plugin's python file with the generated python snippet.
+This will generate a file `/dist/sublime/uikit_completions.py`. Replace the according parts of the plugin's python file with the generated python snippet.
 
-Snippets are generated in the `/dist/snippets` directory. Copy all files to the plugins `/snippets` directory.
+Snippets are generated in the `/dist/sublime/snippets` directory. Copy all files to the plugin's `/snippets` directory.
 
 To make a new version of the plugin available via package control, a new version tag needs to be created.
 

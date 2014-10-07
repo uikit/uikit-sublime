@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<div class="${1:uk-article}">
+<content><![CDATA[<div class="${1:uk-article}">
     <h1 class="${2:uk-article-title}">$3</h1>
     <p class="${4:uk-article-meta}">$5</p>
     <p class="${6:uk-article-lead}">$7</p>
@@ -8,7 +8,7 @@
     <p>$10</p>
 </div>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-article component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-article component</description>
 </snippet>

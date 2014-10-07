@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<div class="${1:uk-button-dropdown}" data-uk-dropdown>
+<content><![CDATA[<div class="${1:uk-button-dropdown}" data-uk-dropdown>
     <button class="${2:uk-button}">$3</button>
     <div class="${4:uk-dropdown uk-dropdown-small}">
         <ul class="${5:uk-nav uk-nav-dropdown}">
@@ -8,7 +8,7 @@
     </div>
 </div>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-button-dropdown component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-button-dropdown component</description>
 </snippet>

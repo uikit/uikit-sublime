@@ -1,12 +1,12 @@
 <snippet>
-    <content><![CDATA[<nav class="${1:uk-navbar}">
+<content><![CDATA[<nav class="${1:uk-navbar}">
     <ul class="${2:uk-navbar-nav}">
         <li class="${3:uk-active}"><a href="">$4</a></li>
         <li><a href="">$5</a></li>
     </ul>
 </nav>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-navbar component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-navbar component</description>
 </snippet>

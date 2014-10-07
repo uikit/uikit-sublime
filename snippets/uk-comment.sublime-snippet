@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<article class="${1:uk-comment}">
+<content><![CDATA[<article class="${1:uk-comment}">
     <header class="${2:uk-comment-header}">
         <img class="${3:uk-comment-avatar}" src="avatar.svg" width="50" height="50" alt="">
         <h4 class="${4:uk-comment-title}">$5</h4>
@@ -10,7 +10,7 @@
     </div>
 </article>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-comment component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-comment component</description>
 </snippet>

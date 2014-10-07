@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[<ul class="${1:uk-sortable}" data-uk-sortable>
+<content><![CDATA[<ul class="${1:uk-sortable}" data-uk-sortable>
     <li>$2</li>
     <li>$3</li>
 </ul>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-sortable addon component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-sortable addon component</description>
 </snippet>

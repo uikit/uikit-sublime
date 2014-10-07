@@ -1,11 +1,11 @@
 <snippet>
-    <content><![CDATA[<div class="${1:uk-panel}">
+<content><![CDATA[<div class="${1:uk-panel}">
     <div class="${2:uk-panel-badge uk-badge}">$3</div>
     <h3 class="${4:uk-panel-title}">$5</h3>
     <p>$6</p>
 </div>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-panel component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-panel component</description>
 </snippet>

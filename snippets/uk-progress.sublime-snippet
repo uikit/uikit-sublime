@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[<div class="${1:uk-progress}">
+<content><![CDATA[<div class="${1:uk-progress}">
     <div class="${2:uk-progress-bar}" style="width: 40%;">$3</div>
 </div>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-progress component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-progress component</description>
 </snippet>

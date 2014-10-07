@@ -1,11 +1,11 @@
 <snippet>
-    <content><![CDATA[<ul class="${1:uk-breadcrumb}">
+<content><![CDATA[<ul class="${1:uk-breadcrumb}">
     <li><a href="">$2</a></li>
     <li><span>$3</span></li>
     <li class="${4:uk-active}"><span>$5</span></li>
 </ul>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-breadcrumb component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-breadcrumb component</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[<ul class="${1:uk-tab}" data-uk-tab>
+<content><![CDATA[<ul class="${1:uk-tab}" data-uk-tab>
     <li class="${2:uk-active}"><a href="">$3</a></li>
     <li><a href="">$4</a></li>
 </ul>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-tab component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-tab component</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[<div class="${1:uk-form-file}">
+<content><![CDATA[<div class="${1:uk-form-file}">
     <button class="${2:uk-button}">$3</button>
     <input type="file">
 </div>
 ]]></content>
-    <tabTrigger>uikit</tabTrigger>
-    <scope>text.html</scope>
-    <description>UIkit uk-form-file addon component</description>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-form-file addon component</description>
 </snippet>
