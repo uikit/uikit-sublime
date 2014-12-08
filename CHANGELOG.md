@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.8.0 (December 8, 2014)
+- updated for UIkit 2.13.1
+
 ### 1.7.0 (October 7, 2014)
 - updated for UIkit 2.11.0
 
