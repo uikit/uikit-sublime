@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[<a class="${1:uk-overlay}" href="">
     <img src="" alt="">
-    <div class="${2:uk-overlay-area}">$3</div>
+    <div class="${2:uk-overlay-panel}">$3</div>
 </a>
 ]]></content>
 <tabTrigger>uikit</tabTrigger>
