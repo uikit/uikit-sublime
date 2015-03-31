@@ -49,47 +49,66 @@ uikit_classes = ["uk-link", "uk-img-preserve", "uk-h1", "uk-h2", "uk-h3", "uk-h4
     "uk-icon-street-view", "uk-icon-heartbeat", "uk-icon-venus", "uk-icon-mars", "uk-icon-mercury", "uk-icon-transgender", "uk-icon-transgender-alt", "uk-icon-venus-double", "uk-icon-mars-double", "uk-icon-venus-mars", "uk-icon-mars-stroke", "uk-icon-mars-stroke-v", "uk-icon-mars-stroke-h", "uk-icon-neuter", "uk-icon-facebook-official", "uk-icon-pinterest-p", "uk-icon-whatsapp", "uk-icon-server", "uk-icon-user-plus", "uk-icon-user-times",
     "uk-icon-bed", "uk-icon-hotel", "uk-icon-viacoin", "uk-icon-train", "uk-icon-subway", "uk-icon-medium-logo", "uk-close", "uk-close-alt", "uk-badge", "uk-badge-notification", "uk-badge-success", "uk-badge-warning", "uk-badge-danger", "uk-alert", "uk-alert-success", "uk-alert-warning", "uk-alert-danger", "uk-alert-large", "uk-thumbnail", "uk-thumbnail-caption",
     "uk-thumbnail-mini", "uk-thumbnail-small", "uk-thumbnail-medium", "uk-thumbnail-large", "uk-thumbnail-expand", "uk-overlay", "uk-border-circle", "uk-overlay-panel", "uk-flex", "uk-overlay-active", "uk-ignore", "uk-overlay-hover", "uk-hover", "uk-overlay-background", "uk-overlay-top", "uk-overlay-bottom", "uk-overlay-left", "uk-overlay-right", "uk-overlay-icon", "uk-overlay-blur",
-    "uk-overlay-fade", "uk-overlay-grayscale", "uk-overlay-scale", "uk-overlay-spin", "uk-overlay-slide-top", "uk-overlay-slide-bottom", "uk-overlay-slide-left", "uk-overlay-slide-right", "uk-overlay-area", "uk-overlay-toggle", "uk-overlay-area-content", "uk-overlay-caption", "uk-progress", "uk-progress-bar", "uk-progress-mini", "uk-progress-small", "uk-progress-success", "uk-progress-warning", "uk-progress-danger", "uk-progress-striped",
-    "uk-animation-fade", "uk-animation-scale-up", "uk-animation-scale-down", "uk-animation-slide-top", "uk-animation-slide-bottom", "uk-animation-slide-left", "uk-animation-slide-right", "uk-animation-scale", "uk-animation-shake", "uk-animation-reverse", "uk-animation-15", "uk-animation-top-left", "uk-animation-top-center", "uk-animation-top-right", "uk-animation-middle-left", "uk-animation-middle-right", "uk-animation-bottom-left", "uk-animation-bottom-center", "uk-animation-bottom-right", "uk-animation-hover",
-    "uk-dropdown", "uk-dropdown-flip", "uk-dropdown-up", "uk-dropdown-grid", "uk-dropdown-stack", "uk-dropdown-width-2", "uk-dropdown-width-3", "uk-dropdown-width-4", "uk-dropdown-width-5", "uk-dropdown-small", "uk-dropdown-navbar", "uk-dropdown-scrollable", "uk-modal", "uk-modal-page", "uk-modal-dialog", "uk-modal-dialog-lightbox", "uk-modal-dialog-large", "uk-modal-header", "uk-modal-footer", "uk-modal-caption",
-    "uk-modal-spinner", "uk-offcanvas", "uk-offcanvas-page", "uk-offcanvas-bar", "uk-offcanvas-bar-show", "uk-offcanvas-bar-flip", "uk-switcher", "uk-tooltip", "uk-tooltip-top-left", "uk-tooltip-top-right", "uk-tooltip-top", "uk-tooltip-bottom-left", "uk-tooltip-bottom-right", "uk-tooltip-bottom", "uk-tooltip-left", "uk-tooltip-right", "uk-text-small", "uk-text-large", "uk-text-bold", "uk-text-muted",
-    "uk-text-primary", "uk-text-success", "uk-text-warning", "uk-text-danger", "uk-text-contrast", "uk-text-left", "uk-text-right", "uk-text-center", "uk-text-justify", "uk-text-top", "uk-text-middle", "uk-text-bottom", "uk-text-center-medium", "uk-text-left-medium", "uk-text-center-small", "uk-text-left-small", "uk-text-nowrap", "uk-text-truncate", "uk-text-break", "uk-container",
-    "uk-container-center", "uk-clearfix", "uk-nbfc", "uk-nbfc-alt", "uk-float-left", "uk-float-right", "uk-align-left", "uk-align-right", "uk-align-medium-left", "uk-align-medium-right", "uk-align-center", "uk-vertical-align", "uk-vertical-align-bottom", "uk-vertical-align-middle", "uk-height-1-1", "uk-height-viewport", "uk-responsive-height", "uk-responsive-width", "uk-margin", "uk-margin-top",
-    "uk-margin-bottom", "uk-margin-left", "uk-margin-right", "uk-margin-large", "uk-margin-large-top", "uk-margin-large-bottom", "uk-margin-large-left", "uk-margin-large-right", "uk-margin-small", "uk-margin-small-top", "uk-margin-small-bottom", "uk-margin-small-left", "uk-margin-small-right", "uk-margin-remove", "uk-margin-top-remove", "uk-margin-bottom-remove", "uk-border-rounded", "uk-heading-large", "uk-link-muted", "uk-link-reset",
-    "uk-scrollable-text", "uk-scrollable-box", "uk-overflow-container", "uk-position-top", "uk-position-bottom", "uk-position-top-left", "uk-position-top-right", "uk-position-bottom-left", "uk-position-bottom-right", "uk-position-cover", "uk-position-relative", "uk-display-block", "uk-display-inline", "uk-display-inline-block", "uk-hidden-large", "uk-visible-medium", "uk-visible-small", "uk-hidden-medium", "uk-visible-large", "uk-hidden-small",
-    "uk-hidden", "uk-invisible", "uk-visible-hover", "uk-visible-hover-inline", "uk-notouch", "uk-hidden-notouch", "uk-hidden-touch", "uk-flex-inline", "uk-flex-top", "uk-flex-middle", "uk-flex-bottom", "uk-flex-center", "uk-flex-right", "uk-flex-space-between", "uk-flex-space-around", "uk-flex-row-reverse", "uk-flex-column", "uk-flex-column-reverse", "uk-flex-wrap", "uk-flex-wrap-reverse",
-    "uk-flex-wrap-top", "uk-flex-wrap-middle", "uk-flex-wrap-bottom", "uk-flex-wrap-space-between", "uk-flex-wrap-space-around", "uk-flex-order-first", "uk-flex-order-last", "uk-flex-order-first-small", "uk-flex-order-last-small", "uk-flex-order-first-medium", "uk-flex-order-last-medium", "uk-flex-order-first-large", "uk-flex-order-last-large", "uk-flex-order-first-xlarge", "uk-flex-order-last-xlarge", "uk-flex-item-none", "uk-flex-item-auto", "uk-flex-item-1", "uk-accordion-title", "uk-accordion-content",
-    "uk-autocomplete", "uk-nav-autocomplete", "uk-datepicker", "uk-datepicker-nav", "uk-datepicker-previous", "uk-datepicker-next", "uk-datepicker-table", "uk-datepicker-table-muted", "uk-dotnav", "uk-dotnav-contrast", "uk-dotnav-vertical", "uk-form-file", "uk-form-password", "uk-form-password-toggle", "uk-form-select", "uk-htmleditor-navbar", "uk-htmleditor-navbar-nav", "uk-htmleditor-navbar-flip", "uk-htmleditor-button-code", "uk-htmleditor-button-preview",
-    "uk-htmleditor-content", "uk-htmleditor-fullscreen", "uk-htmleditor-code", "uk-htmleditor-preview", "uk-htmleditor-iframe", "uk-htmleditor", "uk-nestable", "uk-nestable-list", "uk-nestable-list-dragged", "uk-nestable-item", "uk-nestable-placeholder", "uk-nestable-empty", "uk-nestable-handle", "uk-nestable-moving", "uk-collapsed", "uk-notify", "uk-notify-bottom-right", "uk-notify-top-right", "uk-notify-bottom-center", "uk-notify-top-center",
-    "uk-notify-bottom-left", "uk-notify-message", "uk-notify-message-primary", "uk-notify-message-success", "uk-notify-message-warning", "uk-notify-message-danger", "uk-placeholder", "uk-placeholder-large", "uk-search", "uk-search-field", "uk-dropdown-search", "uk-nav-search", "uk-slidenav", "uk-slidenav-previous", "uk-slidenav-next", "uk-slidenav-position", "uk-slidenav-contrast", "uk-slideshow", "uk-slideshow-fullscreen", "uk-slideshow-fade-out",
-    "uk-slideshow-scroll-forward-in", "uk-slideshow-scroll-forward-out", "uk-slideshow-scroll-backward-in", "uk-slideshow-scroll-backward-out", "uk-slideshow-scale-out", "uk-slideshow-swipe-forward-in", "uk-slideshow-swipe-forward-out", "uk-slideshow-swipe-backward-in", "uk-slideshow-swipe-backward-out", "uk-sortable", "uk-sortable-dragged", "uk-sortable-placeholder", "uk-sortable-over", "uk-sortable-moving", "uk-dragover"]
+    "uk-overlay-fade", "uk-overlay-grayscale", "uk-overlay-scale", "uk-overlay-spin", "uk-overlay-slide-top", "uk-overlay-slide-bottom", "uk-overlay-slide-left", "uk-overlay-slide-right", "uk-overlay-area", "uk-overlay-toggle", "uk-overlay-area-content", "uk-overlay-caption", "uk-animation-fade", "uk-animation-scale-up", "uk-animation-scale-down", "uk-animation-slide-top", "uk-animation-slide-bottom", "uk-animation-slide-left", "uk-animation-slide-right", "uk-animation-scale",
+    "uk-animation-shake", "uk-animation-reverse", "uk-animation-15", "uk-animation-top-left", "uk-animation-top-center", "uk-animation-top-right", "uk-animation-middle-left", "uk-animation-middle-right", "uk-animation-bottom-left", "uk-animation-bottom-center", "uk-animation-bottom-right", "uk-animation-hover", "uk-dropdown", "uk-dropdown-flip", "uk-dropdown-up", "uk-dropdown-grid", "uk-dropdown-stack", "uk-dropdown-width-2", "uk-dropdown-width-3", "uk-dropdown-width-4",
+    "uk-dropdown-width-5", "uk-dropdown-small", "uk-dropdown-navbar", "uk-dropdown-scrollable", "uk-modal", "uk-modal-page", "uk-modal-dialog", "uk-modal-dialog-lightbox", "uk-modal-dialog-large", "uk-modal-header", "uk-modal-footer", "uk-modal-caption", "uk-modal-spinner", "uk-offcanvas", "uk-offcanvas-page", "uk-offcanvas-bar", "uk-offcanvas-bar-show", "uk-offcanvas-bar-flip", "uk-switcher", "uk-text-small",
+    "uk-text-large", "uk-text-bold", "uk-text-muted", "uk-text-primary", "uk-text-success", "uk-text-warning", "uk-text-danger", "uk-text-contrast", "uk-text-left", "uk-text-right", "uk-text-center", "uk-text-justify", "uk-text-top", "uk-text-middle", "uk-text-bottom", "uk-text-center-medium", "uk-text-left-medium", "uk-text-center-small", "uk-text-left-small", "uk-text-nowrap",
+    "uk-text-truncate", "uk-text-break", "uk-container", "uk-container-center", "uk-clearfix", "uk-nbfc", "uk-nbfc-alt", "uk-float-left", "uk-float-right", "uk-align-left", "uk-align-right", "uk-align-medium-left", "uk-align-medium-right", "uk-align-center", "uk-vertical-align", "uk-vertical-align-bottom", "uk-vertical-align-middle", "uk-height-1-1", "uk-height-viewport", "uk-responsive-height",
+    "uk-responsive-width", "uk-margin", "uk-margin-top", "uk-margin-bottom", "uk-margin-left", "uk-margin-right", "uk-margin-large", "uk-margin-large-top", "uk-margin-large-bottom", "uk-margin-large-left", "uk-margin-large-right", "uk-margin-small", "uk-margin-small-top", "uk-margin-small-bottom", "uk-margin-small-left", "uk-margin-small-right", "uk-margin-remove", "uk-margin-top-remove", "uk-margin-bottom-remove", "uk-border-rounded",
+    "uk-heading-large", "uk-link-muted", "uk-link-reset", "uk-scrollable-text", "uk-scrollable-box", "uk-overflow-container", "uk-position-absolute", "uk-position-top", "uk-position-bottom", "uk-position-top-left", "uk-position-top-right", "uk-position-bottom-left", "uk-position-bottom-right", "uk-position-cover", "uk-position-relative", "uk-display-block", "uk-display-inline", "uk-display-inline-block", "uk-hidden-large", "uk-visible-medium",
+    "uk-visible-small", "uk-hidden-medium", "uk-visible-large", "uk-hidden-small", "uk-hidden", "uk-invisible", "uk-visible-hover", "uk-visible-hover-inline", "uk-notouch", "uk-hidden-notouch", "uk-hidden-touch", "uk-flex-inline", "uk-flex-top", "uk-flex-middle", "uk-flex-bottom", "uk-flex-center", "uk-flex-right", "uk-flex-space-between", "uk-flex-space-around", "uk-flex-row-reverse",
+    "uk-flex-column", "uk-flex-column-reverse", "uk-flex-wrap", "uk-flex-wrap-reverse", "uk-flex-wrap-top", "uk-flex-wrap-middle", "uk-flex-wrap-bottom", "uk-flex-wrap-space-between", "uk-flex-wrap-space-around", "uk-flex-order-first", "uk-flex-order-last", "uk-flex-order-first-small", "uk-flex-order-last-small", "uk-flex-order-first-medium", "uk-flex-order-last-medium", "uk-flex-order-first-large", "uk-flex-order-last-large", "uk-flex-order-first-xlarge", "uk-flex-order-last-xlarge", "uk-flex-item-none",
+    "uk-flex-item-auto", "uk-flex-item-1", "uk-accordion-title", "uk-accordion-content", "uk-autocomplete", "uk-nav-autocomplete", "uk-datepicker", "uk-datepicker-nav", "uk-datepicker-previous", "uk-datepicker-next", "uk-datepicker-table", "uk-datepicker-table-muted", "uk-dotnav", "uk-dotnav-contrast", "uk-dotnav-vertical", "uk-form-file", "uk-form-password", "uk-form-password-toggle", "uk-form-select", "uk-htmleditor-navbar",
+    "uk-htmleditor-navbar-nav", "uk-htmleditor-navbar-flip", "uk-htmleditor-button-code", "uk-htmleditor-button-preview", "uk-htmleditor-content", "uk-htmleditor-fullscreen", "uk-htmleditor-code", "uk-htmleditor-preview", "uk-htmleditor-iframe", "uk-htmleditor", "uk-nestable", "uk-nestable-list", "uk-nestable-list-dragged", "uk-nestable-item", "uk-nestable-placeholder", "uk-nestable-empty", "uk-nestable-handle", "uk-nestable-moving", "uk-collapsed", "uk-notify",
+    "uk-notify-bottom-right", "uk-notify-top-right", "uk-notify-bottom-center", "uk-notify-top-center", "uk-notify-bottom-left", "uk-notify-message", "uk-notify-message-primary", "uk-notify-message-success", "uk-notify-message-warning", "uk-notify-message-danger", "uk-placeholder", "uk-placeholder-large", "uk-progress", "uk-progress-bar", "uk-progress-mini", "uk-progress-small", "uk-progress-success", "uk-progress-warning", "uk-progress-danger", "uk-progress-striped",
+    "uk-search", "uk-search-field", "uk-dropdown-search", "uk-nav-search", "uk-slidenav", "uk-slidenav-previous", "uk-slidenav-next", "uk-slidenav-position", "uk-slidenav-contrast", "uk-slideshow", "uk-slideshow-fullscreen", "uk-slideshow-fade-out", "uk-slideshow-scroll-forward-in", "uk-slideshow-scroll-forward-out", "uk-slideshow-scroll-backward-in", "uk-slideshow-scroll-backward-out", "uk-slideshow-scale-out", "uk-slideshow-swipe-forward-in", "uk-slideshow-swipe-forward-out", "uk-slideshow-swipe-backward-in",
+    "uk-slideshow-swipe-backward-out", "uk-sortable", "uk-sortable-dragged", "uk-sortable-placeholder", "uk-sortable-over", "uk-sortable-moving", "uk-tooltip", "uk-tooltip-top-left", "uk-tooltip-top-right", "uk-tooltip-top", "uk-tooltip-bottom-left", "uk-tooltip-bottom-right", "uk-tooltip-bottom", "uk-tooltip-left", "uk-tooltip-right", "uk-dragover"]
 
 uikit_data = ["data-uk-margin", "data-uk-grid-match", "data-uk-grid-margin", "data-uk-check-display", "data-uk-observe", "data-uk-smooth-scroll", "data-uk-scrollspy", "data-uk-scrollspy-nav", "data-uk-toggle", "data-uk-alert", "data-uk-button-radio", "data-uk-button-checkbox", "data-uk-button", "data-uk-dropdown", "data-uk-modal", "data-uk-nav", "data-uk-offcanvas", "data-uk-switcher", "data-uk-switcher-item", "data-uk-tab", "data-uk-cover",
-    "data-uk-tooltip", "data-uk-accordion", "data-uk-autocomplete", "data-uk-datepicker", "data-uk-form-password", "data-uk-form-select", "data-uk-grid", "data-uk-filter", "data-uk-sort", "data-uk-htmleditor", "data-uk-lightbox", "data-uk-nestable", "data-uk-pagination", "data-uk-search", "data-uk-slideshow", "data-uk-slideshow-item", "data-uk-sortable", "data-uk-sticky", "data-uk-timepicker"]
+    "data-uk-accordion", "data-uk-autocomplete", "data-uk-datepicker", "data-uk-form-password", "data-uk-form-select", "data-uk-grid", "data-uk-filter", "data-uk-sort", "data-uk-htmleditor", "data-uk-tooltip", "data-uk-lightbox", "data-uk-nestable", "data-uk-pagination", "data-uk-search", "data-uk-slideshow", "data-uk-slideshow-item", "data-uk-sortable", "data-uk-sticky", "data-uk-timepicker"]
 
 class UIkitCompletions(sublime_plugin.EventListener):
     """
     Provide tag completions for UIkit elements and data-uk attributes
     """
     def __init__(self):
+
         self.class_completions = [("%s \tUIkit class" % s, s) for s in uikit_classes]
         self.data_completions = [("%s \t UIkit uk-data" % s, "%s=\"$1\"" % s) for s in uikit_data]
 
     def on_query_completions(self, view, prefix, locations):
+
         if view.match_selector(locations[0], "text.html string.quoted"):
-            # in attribute: attr="{here}"
-            # make sure it only triggers when: class="{here}"
-            pt = locations[0] - len(prefix) - 1
-            SEARCH_LIMIT = 250
-            search_start = max(0, pt - SEARCH_LIMIT - len(prefix))
-            line = view.substr(sublime.Region(search_start, pt))
-            parts = line.split('=')
-            if len(parts) > 2 and parts[-2].strip().endswith("class"):
+
+            # Cursor is inside a quoted attribute
+            # Now check if we are inside the class attribute
+
+            # max search size
+            LIMIT  = 250
+
+            # place search cursor one word back
+            cursor = locations[0] - len(prefix) - 1
+
+            # dont start with negative value
+            start  = max(0, cursor - LIMIT - len(prefix))
+
+            # get part of buffer
+            line   = view.substr(sublime.Region(start, cursor))
+
+            # split attributes
+            parts  = line.split('=')
+
+            # is the last typed attribute a class attribute?
+            if len(parts) > 1 and parts[-2].strip().endswith("class"):
                 return self.class_completions
             else:
                 return []
         elif view.match_selector(locations[0], "text.html meta.tag - text.html punctuation.definition.tag.begin"):
-            # in tag: <div {here}>
+
+            # Cursor is in a tag, but not inside an attribute, i.e. <div {here}>
+            # This one is easy, just return completions for the data-uk-* attributes
             return self.data_completions
+
         else:
+
             return []
