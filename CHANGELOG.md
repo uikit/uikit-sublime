@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.11.0 (April 20, 2015)
+  - updated for UIkit 2.19.0
+
 ### 1.10.0 (March 31, 2015)
   - updated for UIkit 2.18.0
   - fixed completions not working when inside first class attribute of a document (issue #6)

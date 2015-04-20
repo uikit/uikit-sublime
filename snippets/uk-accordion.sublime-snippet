@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[<div class="${1:uk-accordion}" data-uk-accordion>
+    <h3 class="${2:uk-accordion-title}">$3</h3>
+    <div class="${4:uk-accordion-content}">
+        <p>$5</p>
+    </div>
+</div>
+]]></content>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-accordion component</description>
+</snippet>
