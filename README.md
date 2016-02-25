@@ -59,4 +59,4 @@ To make a new version of the plugin available via package control, a new version
 
 ## Copyright and license
 
-Copyright 2014 [YOOtheme](http://www.yootheme.com) GmbH under the [MIT license](LICENSE.md).
+Copyright 2016 [YOOtheme](http://www.yootheme.com) GmbH under the [MIT license](LICENSE.md).
