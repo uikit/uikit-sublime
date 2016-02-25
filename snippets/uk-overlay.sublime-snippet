@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[<a class="${1:uk-overlay}" href="">
+<content><![CDATA[<figure class="${1:uk-overlay}" href="">
     <img src="" alt="">
-    <div class="${2:uk-overlay-panel}">$3</div>
-</a>
+    <figcaption class="${2:uk-overlay-panel}">$3</figcaption>
+</figure>
 ]]></content>
 <tabTrigger>uikit</tabTrigger>
 <scope>text.html</scope>

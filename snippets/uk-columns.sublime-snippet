@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<div class="${1:uk-columns}">
+    <div class="${2:uk-1-2}">$3</div>
+    <div class="${4:uk-1-2}">$5</div>
+</div>
+]]></content>
+<tabTrigger>uikit</tabTrigger>
+<scope>text.html</scope>
+<description>UIkit uk-columns component</description>
+</snippet>
