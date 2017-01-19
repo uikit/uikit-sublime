@@ -1,5 +1,10 @@
 # Changelog
 
+### 2.0.0 (January 19, 2017)
+  - updated for UIkit 3
+  - removed snippets, because none exists for UIkit 3 at this point
+  - added build script
+
 ### 1.13.0 (February 25, 2015)
   - updated for UIkit 2.25.0
 
@@ -44,4 +49,3 @@
 
 ### 1.0.0 (January 24, 2014)
   - initial release
-
