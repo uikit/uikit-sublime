@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.0.1 (January 19, 2017)
+  - added missing files
+
 ### 2.0.0 (January 19, 2017)
   - updated for UIkit 3
   - removed snippets, because none exists for UIkit 3 at this point

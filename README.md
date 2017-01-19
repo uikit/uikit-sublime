@@ -3,7 +3,7 @@ uikit-sublime
 
 ### UIkit Sublime Plugin
 
-Auto-complete plugin for UIKit classes and data attributes.
+Auto-complete plugin for UIKit classes and attributes.
 
 ### UIkit
 
@@ -29,13 +29,9 @@ git clone git@github.com:uikit/uikit-sublime.git
 
 ![animation of class autocompletion](gif/classes.gif)
 
-**Data attributes autocompletion**: When inside a tag, but outside of a quoted attribute string (`<div [HERE] class="uk-container" [OR-HERE]>`), suggestions will appear for all `data-uk-` attributes.
+**Component attributes autocompletion**: When inside a tag, but outside of a quoted attribute string (`<div [HERE] class="uk-container" [OR-HERE]>`), suggestions will appear for all `uk-` attributes.
 
-![animation of data attributes autocompletion](gif/data.gif)
-
-**Markup snippets**: Anywhere in your document, type `uikit` to see all available snippets. Scroll through them with your cursor keys and hit `RETURN` to insert a snippet or `ESC` to cancel. Use `TAB` to step through positions in the snippet.
-
-![animation of markup snippets](gif/snippets.gif)
+![animation of attributes autocompletion](gif/attributes.gif)
 
 **Note**: In order for the suggestions to appear, your document needs to have the syntax set to `HTML` (or any child syntax like `HTML (PHP)`). You can set the syntax from the menu *View > Syntax* or via the Command Palette.
 
@@ -43,20 +39,15 @@ git clone git@github.com:uikit/uikit-sublime.git
 
 *The following information explains how this plugin is maintained. Users do not need to care about those steps.*
 
-To keep this plugin in sync with UIkit, class names, data attributes and markup snippets are extracted from the UIkit code base using a Gulp task provided by UIkit itself.
+To keep this plugin in sync with UIkit, class names and attributes are extracted from the UIkit code base using the included npm script.
 
 ```bash
-cd path/to/uikit
-gulp
-gulp sublime
+npm install
+npm run update
 ```
-
-This will generate a file `/dist/sublime/uikit_completions.py`. Replace the according parts of the plugin's python file with the generated python snippet.
-
-Snippets are generated in the `/dist/sublime/snippets` directory. Copy all files to the plugin's `/snippets` directory.
 
 To make a new version of the plugin available via package control, a new version tag needs to be created.
 
 ## Copyright and license
 
-Copyright 2016 [YOOtheme](http://www.yootheme.com) GmbH under the [MIT license](LICENSE.md).
+Copyright 2017 [YOOtheme](http://www.yootheme.com) GmbH under the [MIT license](LICENSE.md).

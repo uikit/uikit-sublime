@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[<ul class="${1:uk-subnav}">
-    <li><a href="">$2</a></li>
-</ul>
-]]></content>
-<tabTrigger>uikit</tabTrigger>
-<scope>text.html</scope>
-<description>UIkit uk-subnav component</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[<form class="${1:uk-search}" data-uk-search>
-    <input class="${2:uk-search-field}" type="search" placeholder="">
-</form>
-]]></content>
-<tabTrigger>uikit</tabTrigger>
-<scope>text.html</scope>
-<description>UIkit uk-search component</description>
-</snippet>

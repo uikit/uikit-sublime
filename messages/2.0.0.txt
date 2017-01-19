@@ -1,0 +1,6 @@
+UIkit autocompletion plugin
+===
+
+Class names and attributes have been updated to the new UIkit 3.
+Note that some are new and many have changed.
+Documentation for the new markup can be found on getuikit.com

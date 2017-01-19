@@ -1,0 +1,30 @@
+{
+  "name": "uikit-sublime",
+  "version": "2.0.0",
+  "description": "Sublime plugin with autocompletions for the UIkit frontent framework",
+  "scripts": {
+    "update": "git clone git@github.com:uikit/uikit.git && node build/update && rm -rf uikit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uikit/uikit-sublime.git"
+  },
+  "keywords": [
+    "sublime",
+    "uikit",
+    "autocompletion"
+  ],
+  "author": "YOOtheme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uikit/uikit-sublime/issues"
+  },
+  "homepage": "https://github.com/uikit/uikit-sublime#readme",
+  "dependencies": {
+    "concat-files": "^0.1.1",
+    "fs": "0.0.1-security",
+    "git-clone": "^0.1.0",
+    "mkdirp": "^0.5.1"
+  },
+  "private": true
+}

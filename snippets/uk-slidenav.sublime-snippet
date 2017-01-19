@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[<a href="" class="${1:uk-slidenav uk-slidenav-previous}">$2</a>
-<a href="" class="${3:uk-slidenav uk-slidenav-next}">$4</a>
-]]></content>
-<tabTrigger>uikit</tabTrigger>
-<scope>text.html</scope>
-<description>UIkit uk-slidenav component</description>
-</snippet>
