@@ -1,7 +1,4 @@
 var fs = require('fs');
-var concat = require('concat-files');
-var mkdirp = require('mkdirp');
-var git = require('git-clone');
 
 // file paths
 var fname_css = "uikit/dist/css/uikit.css";
